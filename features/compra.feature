@@ -45,7 +45,7 @@ Feature: Compra producto
         
 
     @compra @exitosa
-    Scenario: C04_Validar campos al comprar
+    Scenario: C05_Validar Compra Exitosa
         When el usuario selecciona productos a agregar
         And  hace clic en el boton cart link
         And  hace clic en el boton checkout
