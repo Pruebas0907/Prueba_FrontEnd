@@ -13,15 +13,16 @@ Este proyecto está diseñado para probar funcionalidades de 'https://www.sauced
 
 ## Instalación
 
-**BASH**
+**TERMINAL BASH**
 - git clone https://github.com/Pruebas0907/Prueba_FrontEnd.git
 - cd Prueba_FrontEnd
 - npm install
 
 # Ejecucion
 
-Para ejecutar los .feature tienes diferentes formas pero desde la terminal bash
+Para ejecutar los .feature tienes diferentes formas
 
+**TERMINAL BASH**
 - General: npx cucumber-js
 - Por feature: npx cucumber-js features/login.feature
 - Por tag: npx cucumber-js --tags '@**AQUI VA EL NOMBRE TAG**'
